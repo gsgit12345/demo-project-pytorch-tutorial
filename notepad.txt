@@ -1,0 +1,15 @@
+
+[iid@master-node agenticai]$ conda env list
+
+conda activate agentic311
+
+
+conda activate pytorch_env
+
+conda deactivate 
+
+conda create -n pytorch_env python=3.11
+
+$ conda activate pytorch_env
+
+pip install torch==2.7.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
