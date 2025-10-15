@@ -1,0 +1,12 @@
+username=""
+repo="demo-project-pytorch-tutorial.git"
+token=""
+!git clone https://{token}@github.com/{username}/{repo}
+
+
+!git config --global user.email gsgmca682@gmail.com
+!git config --global user.name ghanshyam shukla
+!git config --list
+!git add .
+!git status
+!git commit -m "added pytorch structure"
