@@ -13,3 +13,24 @@ conda create -n pytorch_env python=3.11
 $ conda activate pytorch_env
 
 pip install torch==2.7.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+pip install torchviz       --tovisulalise the graph 
+
+
+sudo dnf install graphviz
+
+
+
+conda info --envs
+
+conda list 
+
+pip list 
+
+
+======================creating the virtual environment in windo machine==============
+
+1-create any  folder in any drive and go there and then run below command and you can install other library
+
+py -3.11 -m venv myenv   
+ 
