@@ -19,7 +19,7 @@ pip install torchviz       --tovisulalise the graph
 
 sudo dnf install graphviz
 
-
+(pytorch_env) [iid@master-node demo-project-pytorch-tutorial]$ pip install jupyter notebook
 
 conda info --envs
 
@@ -30,7 +30,8 @@ pip list
 
 ======================creating the virtual environment in windo machine==============
 
-1-create any  folder in any drive and go there and then run below command and you can install other library
+1-create any  folder in any drive and go there and then run below command and you can install other library.you will get the myenv folder 
 
 py -3.11 -m venv myenv   
  
+myenv\Scripts\activate       # every time you work
