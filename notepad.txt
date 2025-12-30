@@ -28,6 +28,12 @@ conda list
 pip list 
 
 
+==============installing the kernell within project ==================
+
+(pytorch_env) [iid@master-node demo-project-pytorch-tutorial]$ python -m ipykernel install --user --name pytorch_env --display-name "PyTorch Env (3.11)"
+
+
+================================end the jupyter kernel installation ====================================================
 ======================creating the virtual environment in windo machine==============
 
 1-create any  folder in any drive and go there and then run below command and you can install other library.you will get the myenv folder 
