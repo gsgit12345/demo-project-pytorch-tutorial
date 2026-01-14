@@ -41,3 +41,5 @@ pip list
 py -3.11 -m venv myenv   
  
 myenv\Scripts\activate       # every time you work
+
+python -m ipykernel install --user --name=your_env_name --display-name "Python (your_env_name)"
