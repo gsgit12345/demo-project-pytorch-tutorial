@@ -1,0 +1,52 @@
+PyTorch Environment Setup Guide (CPU Version with JupyterLab)
+
+STEP 1: Create Conda Environment
+
+conda create -n pytorch_env python=3.11 -y
+
+STEP 2: Activate Environment
+
+conda activate pytorch_env
+
+STEP 3: Upgrade pip
+
+python -m pip install –upgrade pip
+
+STEP 4: Install PyTorch (CPU Version)
+
+pip install torch torchvision torchaudio –index-url
+https://download.pytorch.org/whl/cpu
+
+STEP 5: Install Required Libraries
+
+pip install matplotlib numpy pillow graphviz torchviz jinja2 networkx
+sympy pandas scikit-learn
+
+STEP 6: Install JupyterLab
+
+pip install jupyterlab
+
+STEP 7: Install ipykernel
+
+pip install ipykernel
+
+STEP 8: Register Environment in Jupyter
+
+python -m ipykernel install –user –name pytorch_env –display-name
+“PyTorch Env (3.11)”
+
+STEP 9: Start JupyterLab
+
+jupyter lab
+
+STEP 10: Verify Installation (Inside Notebook)
+
+import torch print(torch.__version__) print(torch.cuda.is_available())
+
+Expected Output: 2.7.0+cpu False
+
+OPTIONAL: Save Installed Packages
+
+pip freeze > requirements.txt
+
+Your environment is now ready for PyTorch development on CPU.
